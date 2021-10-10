@@ -1,0 +1,4 @@
+17.43: In this problem we support the results of Problem 17.18 by using a computer simulation. Specifically, generate M = 10.000 realizations of the AR random process 
+X[n] = 0.95X[n — 1] + U[n] for n = 0,1,... , 49, where U[n] is WGN with σ^2_U = 1. Do so two ways: for the first set of realizations let X[-1] = 0 and for the second set of 
+realizations let X[-1] ~ Ν(0, σ^2_U/(1-a^2)), using a different random variable for each realization. Now estimate the variance for each sample time n, which is r_X[0], by 
+averaging X^2[n] down the ensemble of realizations. Do you obtain the theoretical result of r_X[0] = σ^2_U/(1-a^2)?
